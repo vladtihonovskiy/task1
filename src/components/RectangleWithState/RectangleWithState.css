@@ -1,0 +1,10 @@
+.rectangle-with-state {
+    width: 200px;
+    min-height: 100px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.rectangle p {
+    margin: 0;
+}

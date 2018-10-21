@@ -1,0 +1,13 @@
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+
+    margin: 15px;
+}
+
+.rectangle p {
+    margin: 0;
+}
