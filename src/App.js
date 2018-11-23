@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
+function check() {
+	const a = 15;
+	console.log(a);
+	function checkVariable() {
+		console.log(a);
+
+		 const a = 3;
+		console.log(a);
+	}
+	checkVariable();
+}
 
 class App extends Component {
 	render() {
+		check();
 		return (
 			<div className="App">
 				<header className="App-header">
-					<p>
-            Edit <code>src/App.js</code> and save to reload.
-					</p>
 					<a
 						className="App-link"
 						href="https://reactjs.org"
